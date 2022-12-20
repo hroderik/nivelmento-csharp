@@ -8,7 +8,7 @@ namespace ex002
 
             double area, raio, pi = Math.PI;
 
-            raio = double.Parse(Console.ReadLine());
+            raio = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             area = pi * Math.Pow(raio, 2);
 
             Console.WriteLine($"A={area.ToString("F4", CultureInfo.InvariantCulture)}");
