@@ -11,7 +11,7 @@ namespace ex009
             a = int.Parse(valores[0]);
             b = int.Parse(valores[1]);
             
-            if (a % 2 == 0 && b % 2 == 0) {
+            if (a % b == 0 || b % a == 0) {
                 Console.WriteLine("Sao Multiplos");
              }
             else {
