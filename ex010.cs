@@ -10,10 +10,7 @@ namespace ex010
             int b = int.Parse(valores[1]);
             int horas;
 
-            if (a > b) {
-                horas = 24 - a + b;
-            }
-            else if (a == b) {
+            if (a >= b) {
                 horas = 24 - a + b;
             }
             else {
