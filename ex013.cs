@@ -1,6 +1,6 @@
 using System;
 
-namespace ex012 {
+namespace ex013 {
     internal class Program {
         static void Main(string[] args) {
 
